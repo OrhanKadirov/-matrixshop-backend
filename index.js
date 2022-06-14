@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 mongoose.connect(process.env.MONGO_CONNECTION).then(() => {
-  app.listen(() => {
+  app.listen(port, () => {
     console.log(`Matrix Shop API is listening on http://localhost:${port}`);
   });
 });
