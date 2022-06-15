@@ -1,0 +1,10 @@
+GET http://localhost:5000/matrixshop/users
+
+###
+
+POST http://localhost:5000/signup
+
+{
+    "email": "orhan.kadirov.gs@gmail.com",
+    "name": "Orhan Kadirov"
+}

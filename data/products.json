@@ -1,0 +1,12 @@
+[
+  {
+    "_id": {
+      "$oid": "62a9c67a7e44b776ce2a2696"
+    },
+    "name": "apfel",
+    "description": "rote apfel",
+    "price": "50",
+    "category": "obst",
+    "photo": "rote apfel"
+  }
+]
