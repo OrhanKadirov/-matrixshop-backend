@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post("/signup", signUp);
 router.post("/signin", signIn);
-router.get("/users", matrixshopUsers);
+router.get("/", matrixshopUsers);
 
 export default router;
